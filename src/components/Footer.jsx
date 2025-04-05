@@ -16,14 +16,14 @@ function Footer() {
                 </svg>
             </div>
             <div>
-                <p className='p-2 font-semibold'>Home</p>
-                <p className='p-2 font-semibold'>Login</p>
-                <p className='p-2 font-semibold'>Terms & Conditions</p>
+                <p className='p-2 font-semibold cursor-pointer'>Home</p>
+                <p className='p-2 font-semibold cursor-pointer'>Login</p>
+                <p className='p-2 font-semibold cursor-pointer'>Terms & Conditions</p>
             </div>
             <div>
-                <p className='p-2 font-semibold'>Private Policy</p>
-                <p className='p-2 font-semibold'>Security and bugs</p>
-                <p className='p-2 font-semibold'>Contact Us</p>
+                <p className='p-2 font-semibold cursor-pointer'>Private Policy</p>
+                <p className='p-2 font-semibold cursor-pointer'>Security and bugs</p>
+                <p className='p-2 font-semibold cursor-pointer'>Contact Us</p>
             </div>
         </div>
         <p className='text-center text-sm font-light py-2'>&copy; 2025 Tchatchouang Cedrick, All rights reserved.</p>
