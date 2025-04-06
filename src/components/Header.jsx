@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import logo from '../assets/logo.jpg'
+import { useNavigate } from 'react-router-dom';
 
 function Header() {
 
@@ -10,8 +11,8 @@ function Header() {
         <div className='flex justify-between items-center max-w-250 mx-auto shadow-sm px-4 py-2'>
             <img src={logo} alt="logo" className='w-30 h-14 hover:scale-105 transition-transform duration-300 ease-in-out cursor-pointer'/>
             <div className='hidden md:flex'>
-                <span className='font-bold p-2'>Movies</span>
-                <span className='font-bold p-2'>Favourites</span>
+                <span onClick={() => navigate('/movies')} className='font-bold p-2 hover:text-white hover:bg-[#DA9F58] rounded-xl cursor-pointer shadow-md'>Movies</span>
+                <span className='font-bold p-2 hover:text-white hover:bg-[#DA9F58] rounded-xl cursor-pointer shadow-md'>Favourites</span>
             </div>
             <div className='hidden sm:flex'>
                 <div className='flex items-center font-loght bg-[#DA9F58] p-2 rounded-xl mr-2 shadow-md '>
