@@ -2,6 +2,8 @@ import React, { useEffect } from 'react'
 import { useState } from 'react';
 import MovieCard from './MovieCard';
 
+import MovieList from './MovieList';
+
 
 
 function HomePage() {
@@ -42,6 +44,8 @@ function HomePage() {
             </div>
         </div>
         <MovieCard movies={movies} />
+        <h2 className='text-2xl text-center text-gray-700 mt-10'>Popular Movies</h2>
+        <MovieList />
     </div>
   )
 }
