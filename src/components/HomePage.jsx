@@ -53,7 +53,7 @@ function HomePage() {
         />
       ) : (
         <div>
-            {movies.length ? <h2 className='text-xl text-gray-700 text-center bg-[#DA9F58]'>Search Results</h2>: ''}
+            {movies.length ? <h2 className='text-xl text-white text-center bg-[#DA9F58] w-50 mx-auto mt-1 rounded-xl shadow-2xl'>Search Results</h2>: ''}
             <div className='max-w-250 mx-auto grid grid-cols-2 sm:grid-cols-5'>
                 {movies.map((movie) => (
                     <MovieCard 
