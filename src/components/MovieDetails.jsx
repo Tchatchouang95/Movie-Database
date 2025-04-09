@@ -7,7 +7,7 @@ function MovieDetails({ movieData, onClickReturn}) {
         <div className='text-white bg-[#DA9F58] flex w-20 my-2 p-2 rounded-xl shadow-md cursor-pointer hover:shadow-xl'
              onClick={onClickReturn}>
           <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg>
-          <button className='cursor-pointer hover:shadow-xl'>Home</button>
+          <button className='cursor-pointer hover:shadow-xl'>Back to Search Results</button>
         </div>
         <div className='md:flex'>
             <img src={movieData.Poster} alt="Movie Poster" className='rounded shadow-2xl lg:w-full' />
